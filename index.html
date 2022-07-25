@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Allerta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel"
+      rel="stylesheet"
+    />
+    <style>
+    :root{
+      --spread:flex;
+      --distance:space-between;
+      --around:space-around;
+
+    } 
+    body{
+        overflow-y: hidden;
+        background-color: rgb(244, 237, 237);
+    }
+
+     #navbarMonstera ,#midWhole{
+      display: var(--spread);
+      justify-content:var(--distance);
+      padding-top: 1rem;
+      padding-left: 4%;
+      padding-right: 4%;
+    
+     }
+
+     #navMid{
+      display: var(--spread);
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding: 20px 0;
+      width: 50%;
+      position: relative;
+      bottom: 1.9rem;   
+     }
+
+     #navEnd {
+      display: var(--spread);
+      justify-content: var(--around);
+      width: 15%;
+      color: rgb(70, 65, 65);
+     }
+
+     #monstera{
+      font-size: 4rem;
+      font-weight: 900;
+     }
+
+     #midWholePart13{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      margin: 3px;
+     }
+     .midWholePart13Parts{
+      display: flex;
+      justify-content: var(--around);
+      padding-left: 1rem;
+     }
+     .text{
+      font-size: 7px;
+      position: relative;
+      bottom: 0.9rem;
+     }
+     #heading{
+      width: 45%;
+      background: rgb(6, 177, 6);
+      border-radius: 20px;
+      text-align: center;
+      position: relative;
+      left: 1rem;
+      color: aliceblue;
+      padding: 0.5px;
+    
+     }
+     
+
+    </style>
+    </head>
+    <body>
+    <nav id="navbarMonstera">
+    <div id="navFirst">
+        <img src="./photos/Logo.svg" />
+    </div>
+
+    <div id="navMid">
+    <div>
+    <h4 style="text-decoration: underline;">Home</h4>
+    </div>
+    <div><h4>Collection</h4></div>
+    <div>
+    <h4>Shop</h4>
+    </div>
+    <div>
+    <h4>About</h4>
+    </div>
+    <div>
+    <h4>Contact</h4>
+    </div>
+    </div>
+
+    <div id="navEnd">
+    <div>
+          <img src="/photos/cart.svg" />
+    </div>
+    <div>
+          <img src="./photos/user.svg" />
+    </div>
+    <div>
+          <img src="./photos/search.svg" />
+    </div>
+    </div>
+    </nav>
+
+    <div id="midWhole">
+    <div id="midWholePart1">
+    <div id="midWholePart11">
+    <div>
+    <ul>
+               <li><h1 id="monstera">MONSTERA</h1></li>
+               <li style="color: grey;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Debitis ab veniam adipisci corrupti unde, nostrum saepe.
+                </li>
+               <li style="color: grey;">
+                Quibusdam perferendis, dolore est odit iste cum quas quidem
+                officiis laudantium hic maxime recusandae?
+               </li>
+    </ul>
+    </div>
+    </div>
+    <div id="midWholePart12">
+    <div id="midWholePart121">
+    <div id="heading">
+              <h2> DISCOVER <img src="./photos/greaterThan.svg" alt="" srcset=""></h2>
+    </div>
+    <div id="midWholePart122">
+              <img src="./photos/greaterThan.svg" />
+    </div>
+    </div>
+    </div>
+    <div id="midWholePart13">
+    <div class="midWholePart13Parts">
+    <div>
+              <img id="feeding" src="./photos/water plant.png" />
+   </div>
+    <div>
+              <h4>Feeding</h4>
+    <p class="text">
+              Lorem ipsum dolor sit amet elit ef ef df dgfhd sdf 
+    </p>
+    </div>
+    </div>
+    <div class="midWholePart13Parts">
+    <div>
+              <img id="light" src="./photos/light.svg" alt="" />
+    </div>
+     <br>
+     <div>
+              <h4>Light</h4>
+
+    <p class="text">
+                Lorem ipsum dolor sit amet elit  ef ef df dgfhd sdf 
+    </p>
+
+    </div>
+    </div>
+    <div class="midWholePart13Parts">
+    <div>
+             <img id="care" src="./photos/plough.svg" />
+   </div>
+    <div>
+              <h4>Care</h4>
+    <p class="text">
+                Lorem ipsum dolor sit amet elit  ef ef df dgfhd sdf 
+    </p>
+   </div>
+    </div>
+    </div>
+    </div>
+    <div>
+            <img id="imgMain" src="./photos/6_folwer_cut.png" />
+    </div>
+    </div>
+    </body>
+</html>
