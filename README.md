@@ -4,7 +4,7 @@ By Saurabh
 
 Here's the Live Deployed Website ![Project 6](https://img.shields.io/badge/Project-6-green)
 
-## [GO LIVE](https://monsteracare.netlify.app/)
+## [GO LIVE](https://monstera-ineuron.netlify.app/)
 
 
 ![Completed Website](./redmiImages/6.png)
